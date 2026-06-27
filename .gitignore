@@ -1,0 +1,33 @@
+# Compiled binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+/wake
+/wake-up
+
+# Test & coverage output
+*.test
+*.out
+coverage.*
+
+# Go workspace / vendoring (not used here, ignored if added later)
+go.work
+go.work.sum
+/vendor/
+
+# Atomic-write temp files created by the app
+devices-*.tmp
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
