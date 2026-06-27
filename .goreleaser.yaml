@@ -24,8 +24,6 @@ builds:
       - arm64
 
 archives:
-  # Full archives: .tar.gz for Linux/macOS, .zip for Windows, each bundling
-  # the README and LICENSE.
   - id: archive
     name_template: >-
       {{ .ProjectName }}_{{ .Version }}_
@@ -38,8 +36,6 @@ archives:
       - README.md
       - LICENSE
 
-  # Raw, ready-to-run binaries (e.g. wake_<version>_windows_amd64.exe) so people
-  # can download and run the executable without unzipping anything.
   - id: binary
     formats: [binary]
     name_template: >-

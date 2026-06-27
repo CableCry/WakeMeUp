@@ -17,6 +17,9 @@ go.work
 go.work.sum
 /vendor/
 
+# GoReleaser build output
+/dist/
+
 # Atomic-write temp files created by the app
 devices-*.tmp
 
