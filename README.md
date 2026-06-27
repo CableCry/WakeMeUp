@@ -3,8 +3,7 @@
 
 # WakeMeUp
 
-<!-- TODO: one-line tagline goes here -->
-> _A fast and fabulous Wake-on-LAN manager for your terminal._
+> _Wake Me Up inside... your terminal!_
 
 <img src="assets/emo-emoji.png" alt="WakeMeUp logo" width="160" />
 </div>
